@@ -36,3 +36,28 @@ body{
   margin: auto;
   border-bottom: 1px #ddd solid;
 }
+
+#authors{
+  img{
+    margin-top: -50px;
+  }
+
+  .fa{
+    font-size: 2rem;
+  }
+
+  .card:hover{
+    background-color: $primary;
+    color: white;
+
+    .fa{
+      color: white;
+    }
+  }
+}
+
+#contact{
+  .fa{
+    font-size: 2rem;
+  }
+}
